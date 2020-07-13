@@ -1,0 +1,11 @@
+*.pyc
+__pycache__
+htmlcov/
+.coverage
+.coveragerc
+venv/
+*.sqlite3
+media
+static
+.idea/
+.env
