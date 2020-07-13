@@ -13,3 +13,12 @@ class PostSerializer(serializers.ModelSerializer):
     class Meta:
         model = Post
         fields = ['id', 'title', 'url', 'poster', 'poster_id', 'created']
+
+
+class VoteSerializer(serializers.ModelSerializer):
+    """
+    A serializer to convert the Post model to JSON
+    """
+    class Meta:
+        model = Vote
+        fields = ['id']
